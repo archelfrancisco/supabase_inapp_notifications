@@ -1,0 +1,23 @@
+name: supabase_inapp_notifications
+description: >-
+  Lightweight in-app notifications for Flutter + Supabase — deliver to any user
+  via a SECURITY DEFINER RPC, read/unread counts, and a typed model.
+version: 0.1.0
+repository: https://github.com/archelfrancisco/supabase_inapp_notifications
+issue_tracker: https://github.com/archelfrancisco/supabase_inapp_notifications/issues
+topics:
+  - supabase
+  - notifications
+  - flutter
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ">=2.0.0 <3.0.0"
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
